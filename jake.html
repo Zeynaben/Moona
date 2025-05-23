@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jake Profile</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="profile-jungwon">
+
+  <div id="navbar-placeholder"></div>
+
+  <header class="hero-profile">
+    <h1>Jake <span class="star-icon">a</span></h1>
+    <div class="h1-underline"></div>
+    <p class="hangul">“심재윤”</p>
+  </header>
+
+  <main class="jungwon-content">
+    <!-- PROFILE INFO -->
+    <section class="profile-info">
+      <img src="images/Jake.jpg" alt="Jake" class="profile-image" />
+      <div class="basic-info">
+        <div class="line-with-star">
+          <div class="line"></div>
+          <span class="star">a</span>
+          <div class="line"></div>
+        </div>
+
+        <p><strong>Full name:</strong> Jake Sim</p>
+        <p><strong>Birthday:</strong> November 15th, 2002</p>
+        <p><strong>Position:</strong> Vocalist, Rapper, Dancer</p>
+        <p><strong>Nationality:</strong> Korean-Australian</p>
+        <p><strong>Height:</strong> 176cm</p>
+        <p><strong>Zodiac Sign:</strong> Scorpio</p>
+
+        <div class="line-with-star">
+          <div class="line"></div>
+          <span class="star">a</span>
+          <div class="line"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEMBER SHORTCUT -->
+    <section class="enhypen-shortcut">
+      <div class="section-header">
+        <div class="line"></div>
+        <h2 class="enhypen-title">ENHYPEN</h2>
+        <div class="line"></div>
+      </div>
+      <div class="enhypen-row">
+        <a href="jungwon.html"><img src="images/Jungwon1.png" alt="Jungwon" /></a>
+        <a href="heesung.html"><img src="images/heesung1.png" alt="Heesung" /></a>
+        <a href="jay.html"><img src="images/jay1.png" alt="Jay" /></a>
+        <a href="jake.html"><img src="images/jake1.png" alt="Jake" /></a>
+        <a href="sunghoon.html"><img src="images/sunghoon1.png" alt="Sunghoon" /></a>
+        <a href="sunoo.html"><img src="images/sunoo1.png" alt="Sunoo" /></a>
+        <a href="ni-ki.html"><img src="images/niki1.png" alt="Ni-Ki" /></a>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about">
+      <h2 class="section-title">A B O U T</h2>
+      <p class="about-text1">
+        Jake is Enhypen’s golden retriever energy! Born in Brisbane, Australia on November 15, 2002. Jake is warm, loveable and full of passion. He joined BigHit through a global audition and trained for less than a year – yet placed #3 on I-LAND, showing just how naturally talented he is. He’s known for his deep voice, strong stage charisma and bright personality. Off stage, he’s sweet, energetic and super dedicated.
+      </p>
+    </section>
+
+    <!-- PICTURE GALLERY -->
+    <section class="gallery">
+      <h2 class="section-title">P I C T U R E S</h2>
+      <div class="slider-wrapper">
+        <button class="slide-btn left" onclick="scrollSlider('jake-strip', -1)">&#10094;</button>
+
+        <div class="image-scroll-container">
+          <div class="image-strip" id="jake-strip">
+            <img src="images/jake1.png" alt="Jake" />
+            <img src="images/jake2.png" alt="Jake" />
+            <img src="images/jake3.png" alt="Jake" />
+            <img src="images/jake4.png" alt="Jake" />
+            <img src="images/jake5.png" alt="Jake" />
+            <img src="images/jake6.png" alt="Jake" />
+            <img src="images/jake7.png" alt="Jake" />
+          </div>
+        </div>
+
+        <button class="slide-btn right" onclick="scrollSlider('jake-strip', 1)">&#10095;</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
