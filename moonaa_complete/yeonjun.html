@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yeonjun Profile</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="profile-jungwon">
+
+  <div id="navbar-placeholder"></div>
+
+  <header class="hero-profile">
+    <h1>Yeonjun <span class="star-icon">a</span></h1>
+    <div class="h1-underline"></div>
+    <p class="hangul">“최연준”</p>
+  </header>
+
+  <main class="jungwon-content">
+    <!-- PROFILE INFO -->
+    <section class="profile-info">
+        <img src="images/Yeonjun.jpg" alt="Yeonjun" class="txt-profile-image" />
+        <div class="basic-info">
+          <div class="line-with-star">
+            <div class="line"></div>
+            <span class="star">a</span>
+            <div class="line"></div>
+          </div>
+
+          <p><strong>Full name:</strong> Choi Yeonjun</p>
+          <p><strong>Birthday:</strong> September 13th, 1999</p>
+          <p><strong>Position:</strong> Rapper, Dancer, Vocalist</p>
+          <p><strong>Nationality:</strong> Korean</p>
+          <p><strong>Height:</strong> 181.5cm</p>
+          <p><strong>Zodiac Sign:</strong> Virgo</p>
+
+          <div class="line-with-star">
+            <div class="line"></div>
+            <span class="star">a</span>
+            <div class="line"></div>
+          </div>
+        </div>
+    </section>
+
+    <!-- MEMBER SHORTCUT -->
+    <section class="enhypen-shortcut">
+      <div class="section-header">
+        <div class="line"></div>
+        <h2 class="enhypen-title">TXT</h2>
+        <div class="line"></div>
+      </div>
+      <div class="enhypen-row">
+        <a href="soobin.html"><img src="images/soobin1.png" alt="Soobin" /></a>
+        <a href="beomgyu.html"><img src="images/beomgyu1.png" alt="Beomgyu" /></a>
+        <a href="yeonjun.html"><img src="images/yeonjun1.png" alt="Yeonjun" class="active-member" /></a>
+        <a href="taehyun.html"><img src="images/taehyun1.png" alt="Taehyun" /></a>
+        <a href="kai.html"><img src="images/kai1.png" alt="Kai" /></a>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about">
+      <h2 class="section-title">A B O U T</h2>
+      <p class="about-text1">
+        Yeonjun is TXT’s all-rounder and confident king! Born on September 13, 1999, he was the first member revealed and immediately caught attention with his visuals and charisma. He’s known for his powerful dance, unique voice, and bold fashion style. On stage, he’s fierce and expressive — but off stage, he’s playful, sweet, and a total softie with fans. Yeonjun brings bold charm and creativity to TXT — always standing out, always unforgettable.
+      </p>
+    </section>
+
+    <!-- PICTURE GALLERY -->
+    <section class="gallery">
+      <h2 class="section-title">P I C T U R E S</h2>
+      <div class="slider-wrapper">
+        <button class="slide-btn left" onclick="scrollSlider('yeonjun-strip', -1)">&#10094;</button>
+
+        <div class="image-scroll-container">
+          <div class="image-strip" id="yeonjun-strip">
+            <img src="images/yeonjun1.png" alt="Yeonjun" />
+            <img src="images/yeonjun2.png" alt="Yeonjun" />
+            <img src="images/yeonjun3.png" alt="Yeonjun" />
+            <img src="images/yeonjun4.png" alt="Yeonjun" />
+            <img src="images/yeonjun5.png" alt="Yeonjun" />
+            <img src="images/yeonjun6.png" alt="Yeonjun" />
+            <img src="images/yeonjun7.png" alt="Yeonjun" />
+          </div>
+        </div>
+
+        <button class="slide-btn right" onclick="scrollSlider('yeonjun-strip', 1)">&#10095;</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
