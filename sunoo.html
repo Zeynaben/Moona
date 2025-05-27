@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sunoo Profile</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="profile-jungwon">
+
+  <div id="navbar-placeholder"></div>
+
+  <header class="hero-profile">
+    <h1>Sunoo <span class="star-icon">a</span></h1>
+    <div class="h1-underline"></div>
+    <p class="hangul">“김선우”</p>
+  </header>
+
+  <main class="jungwon-content">
+    <!-- PROFILE INFO -->
+    <section class="profile-info">
+      <img src="images/Suno.jpg" alt="Sunoo" class="profile-image" />
+      <div class="basic-info">
+        <div class="line-with-star">
+          <div class="line"></div>
+          <span class="star">a</span>
+          <div class="line"></div>
+        </div>
+
+        <p><strong>Full name:</strong> Kim Sunoo</p>
+        <p><strong>Birthday:</strong> June 24th, 2003</p>
+        <p><strong>Position:</strong> Vocalist, Visual</p>
+        <p><strong>Nationality:</strong> Korean</p>
+        <p><strong>Height:</strong> 175cm</p>
+        <p><strong>Zodiac Sign:</strong> Cancer</p>
+
+        <div class="line-with-star">
+          <div class="line"></div>
+          <span class="star">a</span>
+          <div class="line"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEMBER SHORTCUT -->
+    <section class="enhypen-shortcut">
+      <div class="section-header">
+        <div class="line"></div>
+        <h2 class="enhypen-title">ENHYPEN</h2>
+        <div class="line"></div>
+      </div>
+      <div class="enhypen-row">
+        <a href="jungwon.html"><img src="images/Jungwon1.png" alt="Jungwon" /></a>
+        <a href="heesung.html"><img src="images/heesung1.png" alt="Heesung" /></a>
+        <a href="jay.html"><img src="images/jay1.png" alt="Jay" /></a>
+        <a href="jake.html"><img src="images/jake1.png" alt="Jake" /></a>
+        <a href="sunghoon.html"><img src="images/sunghoon1.png" alt="Sunghoon" /></a>
+        <a href="sunoo.html"><img src="images/sunoo1.png" alt="Sunoo" /></a>
+        <a href="ni-ki.html"><img src="images/niki1.png" alt="Ni-Ki" /></a>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about">
+      <h2 class="section-title">A B O U T</h2>
+      <p class="about-text1">
+        Sunoo is Enhypen’s sunshine with sparkle energy! Born on June 24, 2003. He’s known for his bright smile, expressive face and natural charm. Despite training for less than a year, he ranked #8 on I-LAND, wowing fans with his stage charisma. Off stage, he’s cheerful, playful and full of personality. He’s the type to hype everyone up, show love to fans with every wink and light up the room with his laughter. ENGENEs adore him for being soft and sassy!
+      </p>
+    </section>
+
+    <!-- PICTURE GALLERY -->
+    <section class="gallery">
+      <h2 class="section-title">P I C T U R E S</h2>
+      <div class="slider-wrapper">
+        <button class="slide-btn left" onclick="scrollSlider('sunoo-strip', -1)">&#10094;</button>
+
+        <div class="image-scroll-container">
+          <div class="image-strip" id="sunoo-strip">
+            <img src="images/sunoo1.png" alt="Sunoo" />
+            <img src="images/sunoo2.png" alt="Sunoo" />
+            <img src="images/sunoo3.png" alt="Sunoo" />
+            <img src="images/sunoo4.png" alt="Sunoo" />
+            <img src="images/sunoo5.png" alt="Sunoo" />
+            <img src="images/sunoo6.png" alt="Sunoo" />
+            <img src="images/sunoo7.png" alt="Sunoo" />
+
+          </div>
+        </div>
+
+        <button class="slide-btn right" onclick="scrollSlider('sunoo-strip', 1)">&#10095;</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
